@@ -1,0 +1,33 @@
+QUICK SETUP GUIDE
+=================
+
+1. CREATE FOLDER:
+   mkdir email_automation
+   cd email_automation
+
+2. COPY FILES:
+   Copy all .py files from the workspace to this folder
+
+3. INSTALL PYTHON PACKAGES:
+   python3 -m venv email_automation_env
+   source email_automation_env/bin/activate  # (Linux/Mac)
+   # OR: email_automation_env\Scripts\activate  # (Windows)
+   pip install pandas openpyxl schedule
+
+4. RUN SYSTEM:
+   python quick_start.py
+
+5. ENTER WHEN PROMPTED:
+   - Recipient email
+   - Subject
+   - Message  
+   - File path to attach
+
+That's it! The system will analyze your file and send the email.
+
+FILES YOU NEED:
+- email_automation.py
+- config.py
+- quick_start.py
+- requirements.txt
+- (Optional: all other .py files for advanced features)
